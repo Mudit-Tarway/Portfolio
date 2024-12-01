@@ -1,0 +1,203 @@
+.homepage{
+    background-color: darkcyan;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+}
+.personal{
+    margin-left:40%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.first_part{
+    margin-top:100px;
+    display: flex;
+    margin-bottom:70px;
+}
+.image{
+    margin-left:200px;
+    height:auto;
+    width: 1000px;
+    border-radius: 150px 150px 0 0;
+    overflow: hidden;
+}
+.description{
+    font-size: 45px;
+    margin-left: 50px;
+    margin-right: 300px;
+    opacity: 0;  
+    transform: translateY(20px); 
+    animation: fadeInUp 4s ease-out forwards;  
+}
+@keyframes fadeInUp {
+    0% {
+      opacity: 0; 
+      transform: translateY(40px); 
+    }
+    100% {
+      opacity: 1; 
+      transform: translateY(0); 
+    }
+}
+.second_part{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+hr{
+    border: 0;
+    height: 2px;
+    background-color: white;
+    width: 90%;;
+    margin: 0 0 0 290px;
+    margin-bottom: 700px;
+}
+.intro{
+    margin-left: 90px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 720px;
+}
+.myself{
+    color:white;
+    margin-left: 90px;
+    margin-right: 100px;
+    font-size: 25px;
+    line-height: 2;
+}
+.third_part{
+    height: 100px;
+    width:auto;
+    background-color: azure;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+    border-radius: 45px;
+}
+footer{
+    text-align: center;
+    font-size: x-large;
+    font-family: bold;
+}
+.video{
+    background-color: white;
+}
+.info{
+    background-image: url('PhotoEducation.jpg');
+    background-size: cover; 
+}
+.details{
+    height:1000px;
+    width: 1000px;
+    border: solid;
+    border-color: black;
+    margin-left: 250px;
+}
+.pallate{
+    text-align:center;
+    text-decoration: solid;
+    font-weight: bolder;
+    color:white;
+}
+#item101{
+    height: 120px;
+    width: auto;
+    background-color:cornflowerblue;
+    color: black;
+}
+#item102{
+    height: 120px;
+    width:auto;
+    background-color: darkkhaki;
+    color:black;
+    margin-top:50px; 
+}
+#class10{
+    text-align:center;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+#item101, #item102, #item103, #item104, #item105 {
+    background-color: #6C757D; 
+    color: white; 
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px; 
+}
+#class12{
+    text-align:center;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+#college{
+    text-align:center;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+#image1{
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+.skillpage{
+    font-family: 'Roboto', Arial, sans-serif; 
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+    padding: 20px;
+}
+.item109{
+    font-weight: 900;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#item106,#item01,#item19{
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline double;
+    text-align: center;
+}
+.resume {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.2em; 
+    text-align: center; 
+    color: #fff; 
+    margin-top: 30px;
+}
+.download-btn {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+.download-btn:hover {
+    background-color: #ffd700;
+    transform: scale(1.05); 
+}
+.item106,.item108,.item110{
+    margin-top: 70px;
+}
+#item13,#item14,#item15,#item16,#item17,#item18,.anchor1{
+    margin-top: 15px;
+
+}
+@media (max-width: 768px) {
+    .resume {
+        font-size: 1em;
+    }
+
+    .download-btn {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
